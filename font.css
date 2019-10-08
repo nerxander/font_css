@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css?family=Alex+Brush&display=swap');
+
+h1 {
+    font-family: 'Alex Brush', cursive;
+} */
+
+@font-face{
+    font-family: 'centraal';
+    src: url(TheP_Delicate_DEMO.ttf) format('truetype');
+}
+
+h1{
+    font-family: 'centraal';
+}
+@media screen and (max-Width: 500px);
+h1 {
+    color: blue; 
+}
+
+@media screen and (max-Width: 300px);
+h1 {
+    color: red; 
+}
